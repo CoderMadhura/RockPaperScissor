@@ -1,0 +1,167 @@
+* {
+   margin: 0px;
+   border:border-box;
+}
+
+
+.heading{
+    height:80px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+   background-color:rgb(199, 221, 241);      /*rgb(245, 223, 212); */
+}
+
+
+.msgContainer{
+display:flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+
+.msg{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 30px;
+    color:#0f1111;
+    font-weight: bold;
+    font-family: 'Lucida Sans',cursive;
+    margin-left:30px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.compContainer{
+   height:330px;
+   width:280px;
+   margin-top: 8px;
+    margin-left:80px;
+    text-align: center;
+    
+    
+}
+
+.compMove{
+    height:240px;
+    width:240px;
+   /* background-image: url("rockComp.png"); */
+    
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left:10px;
+   margin-top:20px;
+   
+}
+.compImg{
+    height:200px;
+    width:200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.compScore{
+   margin-top:15px;
+   font-size: 2rem;
+
+}
+
+.userContainer{
+    height:330px;
+    width:280px;
+    margin-top: 8px;
+     margin-left:80px;
+     text-align: center; 
+ }
+
+ .userMove{
+    height:240px;
+    width:240px;
+    /* background-image: url("rockUser.png"); */
+    
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left:10px;
+   margin-top:20px;
+}
+
+.userImg{
+    height:190px;
+    width:190px;
+    align-items: center;
+    justify-content: center;
+    border:5px solid rgb(95, 19, 2);
+    border-radius: 50%;
+}
+
+.userScore{
+    margin-top:15px;
+    font-size: 2rem;
+ 
+ }
+
+.options{
+    display:flex;
+    justify-content:space-around;
+    height:150px;
+    margin-top:50px;
+    width:100%;
+    
+    
+}
+
+#rock{
+    height:150px;
+    width:150px;
+    background-image: url("Rock.png");
+    background-size: cover;
+    border-radius:100%;
+    margin-left:480px;
+    
+   
+    
+    
+}
+
+#paper{
+    height:150px;
+    width:150px;
+    background-image: url("paper.jpg");
+    background-size: cover;
+    border-radius:100%;
+    
+   
+    
+
+}
+
+#scissor{
+    height:155px;
+    width:150px;
+    background-image: url("scissor.jpg");
+    background-size: cover;
+    border-radius:100%;
+    margin-right:450px;
+
+}
+
+.choices{
+    border:2px solid black;
+}
+.choices:hover{
+    border:4px solid black;
+}
